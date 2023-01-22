@@ -29,7 +29,7 @@ export default function FilmInfo({
             <p className='mb-1 text-app-placeholder'>{Translate.getWord('status')}</p>
             <p className='text-app-pure-white'>{status}</p>
           </div>
-        </div>5536
+        </div>
       ) : (
         <div className='mb-6 flex items-center justify-between text-left text-sm lg:w-11/12 lg:text-lg'>
           <div>
