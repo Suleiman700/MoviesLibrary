@@ -2,12 +2,10 @@
 # <img src = "https://media4.giphy.com/media/AuZXGzk5qKRpG54Ewl/giphy.gif?cid=ecf05e47jgpe7u14fp4yhajmqlmiy1jlf4xw5npgof5lr2qo&rid=giphy.gif&ct=s" width="45"> Watcho
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f3dd54aa-fd47-4ed5-bdaa-e6248062c6ad/deploy-status)](https://app.netlify.com/sites/watcho-app/deploys)
 
->Welcome to the 🎬 ``` Watcho ``` app! Watcho allows user to browse and search for their favorite movies or being based on any particular genre like horror, action, mystry, crime, family, fantasy, romance, music, and much More. Explore our app and you would fall in love 😍 for sure.
-
-Author : [Sayan Maity](sayancr777@gmail.com)
+>Welcome to the 🎬 ``` Movies Library ``` app! Movies Library allows user to browse and search for their favorite movies or being based on any particular genre like horror, action, mystry, crime, family, fantasy, romance, music, and much More. Explore our app and you would fall in love 😍 for sure.
 
 <p align="center">
-  <img src="https://github.com/Sayan-Maity/Watcho/blob/main/assets/banner.png" alt="banner">
+  <img src="https://user-images.githubusercontent.com/25286081/214136340-4a3182a8-a1ca-4bbe-8115-1db4d4a5c754.png" alt="banner">
 </p>
 
 ## 🛠️ Built with :
@@ -21,53 +19,54 @@ Author : [Sayan Maity](sayancr777@gmail.com)
 - Browse movies by genre
 - Search for specific movies
 - View movie details, including plot summary, cast, and ratings
+- Each genre has its own icon
 
 ## 📸 Screenshots
 <table>
     <tr>
         <td colspan="2">
-            <img src="https://github.com/Sayan-Maity/Watcho/blob/main/assets/preview.jpg"></img>
+            <img src="https://user-images.githubusercontent.com/25286081/214136340-4a3182a8-a1ca-4bbe-8115-1db4d4a5c754.png"></img>
             <br />
             <h3 align="center">Home Page</h3>
         </td>
     </tr>
     <tr>
         <td width="50%">
-            <img src="https://github.com/Sayan-Maity/Watcho/blob/main/assets/preview7.jpg"></img>
+            <img src="https://user-images.githubusercontent.com/25286081/214137431-5a3ca85f-d696-480f-ad40-34985362dab1.png"></img>
             <br />
             <p align="center">Trending & Popular Section</p>
         </td>
         <td width="50%">
-            <img src="https://github.com/Sayan-Maity/Watcho/blob/main/assets/preview6.jpg"></img>
+            <img src="https://user-images.githubusercontent.com/25286081/214137575-2ea0e641-86f7-4897-9efd-2af699774eab.png"></img>
             <br />
             <p align="center">Now Playing and Upcoming Section</p>
         </td>
     </tr>
     <tr>
         <td width="50%">
-            <img src="https://github.com/Sayan-Maity/Watcho/blob/main/assets/preview2.jpg"></img>
+            <img src="https://user-images.githubusercontent.com/25286081/214136557-4ea72ab8-cfe7-41bc-918b-c0635429436b.png"></img>
             <br />
             <p align="center">Movies Genre</p>
         </td>
         <td width="50%">
-            <img src="https://github.com/Sayan-Maity/Watcho/blob/main/assets/preview3.jpg"></img>
+            <img src="https://user-images.githubusercontent.com/25286081/214136672-020bd0c2-ceed-4b64-bc80-511cb5fedc60.png"></img>
             <br />
             <p align="center">TV Series Genre</p>
         </td>
     </tr>
     <tr>
         <td width="50%">
-            <img src="https://github.com/Sayan-Maity/Watcho/blob/main/assets/preview4.jpg"></img>
+            <img src="https://user-images.githubusercontent.com/25286081/214137074-1aa57bcb-774e-4e2b-b8e0-fe0733516c8c.png"></img>
             <br />
             <p align="center">Search Results</p></td>
         <td width="50%">
-            <img src="https://github.com/Sayan-Maity/Watcho/blob/main/assets/preview8.jpg"></img>
+            <img src="https://user-images.githubusercontent.com/25286081/214137200-2f50dc54-3814-44b9-b62a-ef64fd7e21ca.png"></img>
             <br />
             <p align="center">Music Search Genre</p></td>
     </tr>
     <tr>
         <td colspan="2">
-            <img src="https://github.com/Sayan-Maity/Watcho/blob/main/assets/preview5.jpeg"></img>
+            <img src="https://user-images.githubusercontent.com/25286081/214136896-efa06084-b81f-4211-b619-582798371a19.png"></img>
             <br />
             <h3 align="center">Movie Detail</h3>
         </td>
@@ -82,8 +81,7 @@ Author : [Sayan Maity](sayancr777@gmail.com)
 - [ ] Add authentication so that the user can sign up and log in to save their favorite movies and tv shows permanently
 
 
-## 📝 Endnote
-So if you have liked this project then do consider giving it a star which will encourage me to build more of this kind of projects in future and also if you want youcan follow me on [Github](https://github.com/Sayan-Maity/) 😊
-Keep Coding !
+## 📝 Note
+The original project was written by `Sayan Maity`[Github](https://github.com/Sayan-Maity/).
 
-<p align="right">~ Sayan Maity</p>
+I've improved the code and added new features to make it even better.
