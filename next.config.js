@@ -12,7 +12,7 @@ const nextConfig = {
 }
 
 const env = {
-  APP_NAME: 'Movies World'
+  APP_NAME: 'Movies Library'
 }
 
 module.exports = { nextConfig, env }
