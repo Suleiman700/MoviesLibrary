@@ -78,7 +78,7 @@
 
 - [ ] Add a bookmark page to store the user's favorite movies and tv shows
 - [ ] Add the video playing feature when the user hover over the card and play the video
-- [ ] Add authentication so that the user can sign up and log in to save their favorite movies and tv shows permanently
+- [ ] Add advanced search with filters like: year, genre, rating...etc
 
 
 ## 📝 Note
