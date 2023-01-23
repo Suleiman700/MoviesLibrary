@@ -14,6 +14,7 @@ import SearchBar from '../../components/SearchBar'
 import { fetcher, pathToSearchMovie } from '../../utils'
 
 import getWord from "../../utils/Translate";
+import {env} from "../../next.config";
 
 export default function Movie({displayLanguage}) {
   const router = useRouter()
@@ -26,7 +27,7 @@ export default function Movie({displayLanguage}) {
   return (
     <>
       <Head>
-        <title>{movie.detail.title} | </title>
+        <title>{movie.detail.title} | {env.APP_NAME}</title>
       </Head>
       <SearchBar
         placeholder='Search for movies'

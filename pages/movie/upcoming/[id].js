@@ -25,7 +25,7 @@ export default function UpcomingMovies() {
         placeholder='Search for movies'
         searchPath={pathToSearchMovie}
       />
-      <PageTitle title='upcoming movies' />
+      <PageTitle title='upcoming movies' textColor='text-red-700' />
       {data ? (
         <>
           <CollectionSearch isGenre arr={data.results} />

@@ -3,12 +3,13 @@ import Genres from '../../components/Genres'
 import SearchBar from '../../components/SearchBar'
 import { genreMovie, getGenre, getUrl } from '../../lib/tmdb'
 import { pathToSearchMovie } from '../../utils'
+import { env } from "../../next.config";
 
 export default function Movie({ data }) {
   return (
     <>
       <Head>
-        <title>Movies | Watcho</title>
+        <title>Movies | {env.APP_NAME}</title>
       </Head>
       <SearchBar
         placeholder='Search for movies'
@@ -17,7 +18,7 @@ export default function Movie({ data }) {
       <Genres
         arr={data.genres}
         media_type='movie'
-        oddBgColor='odd:bg-cyan-700'
+        oddBgColor='odd:bg-red-700'
       />
     </>
   )

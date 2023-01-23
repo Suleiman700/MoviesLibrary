@@ -7,6 +7,7 @@ import PageTitle from '../../../components/PageTitle'
 import PaginationImproved from '../../../components/PaginationImproved'
 import SearchBar from '../../../components/SearchBar'
 import { fetcher, pathToSearchMovie } from '../../../utils'
+import {env} from "../../../next.config";
 
 export default function TopRatedMovies() {
   const router = useRouter()
@@ -19,13 +20,13 @@ export default function TopRatedMovies() {
   return (
     <div>
       <Head>
-        <title>Top Rated Movies | Watcho</title>
+        <title>Top Rated Movies | {env.APP_NAME}</title>
       </Head>
       <SearchBar
         placeholder='Search for movies'
         searchPath={pathToSearchMovie}
       />
-      <PageTitle title='top rated movies' />
+      <PageTitle title='top rated movies' textColor='text-red-700' />
       {data ? (
         <>
           <CollectionSearch isGenre arr={data.results} />

@@ -3,18 +3,19 @@ import Genres from '../../components/Genres'
 import SearchBar from '../../components/SearchBar'
 import { genreTV, getGenre } from '../../lib/tmdb'
 import { pathToSearchTV } from '../../utils'
+import {env} from "../../next.config";
 
 export default function TV({ data }) {
   return (
     <>
       <Head>
-        <title>TV Series | Watcho</title>
+        <title>TV Series | {env.APP_NAME}</title>
       </Head>
       <SearchBar
         placeholder='Search for TV series'
         searchPath={pathToSearchTV}
       />
-      <Genres arr={data.genres} media_type='tv' oddBgColor='odd:bg-teal-700' />
+      <Genres arr={data.genres} media_type='tv' oddBgColor='odd:bg-cyan-700' />
     </>
   )
 }

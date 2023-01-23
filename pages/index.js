@@ -3,6 +3,7 @@ import CardTrending from '../components/CardTrending'
 import Collection from '../components/Collection'
 import SearchBar from '../components/SearchBar'
 import { pathToSearchAll } from '../utils'
+import {env} from "../next.config";
 
 export default function Home() {
   const limitNormal = 6
@@ -11,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home | MoviesLibrary</title>
+        <title>Home | {env.APP_NAME}</title>
       </Head>
       <SearchBar searchPath={pathToSearchAll} />
 

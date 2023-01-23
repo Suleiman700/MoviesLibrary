@@ -7,6 +7,7 @@ import PageTitle from '../../../components/PageTitle'
 import PaginationImproved from '../../../components/PaginationImproved'
 import SearchBar from '../../../components/SearchBar'
 import { fetcher, pathToSearchTV } from '../../../utils'
+import {env} from "../../../next.config";
 
 export default function TrendingTVSeries() {
   const router = useRouter()
@@ -19,13 +20,13 @@ export default function TrendingTVSeries() {
   return (
     <div>
       <Head>
-        <title>Trending TV Series | Watcho</title>
+        <title>Trending TV Series | {env.APP_NAME}</title>
       </Head>
       <SearchBar
         placeholder='Search for TV Series'
         searchPath={pathToSearchTV}
       />
-      <PageTitle title='Trending TV Series' />
+      <PageTitle title='Trending TV Series' textColor='text-cyan-700' />
       {data ? (
         <>
           <CollectionSearch isGenre arr={data.results} media_type='tv' />

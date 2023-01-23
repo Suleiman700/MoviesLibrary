@@ -25,7 +25,7 @@ export default function NowPlayingMovies() {
         placeholder='Search for movies'
         searchPath={pathToSearchMovie}
       />
-      <PageTitle title='now playing movies' />
+      <PageTitle title='now playing movies' textColor='text-red-700' />
       {data ? (
         <>
           <CollectionSearch isGenre arr={data.results} />

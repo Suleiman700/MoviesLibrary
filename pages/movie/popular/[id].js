@@ -25,7 +25,7 @@ export default function PopularMovies() {
         placeholder='Search for movies'
         searchPath={pathToSearchMovie}
       />
-      <PageTitle title='popular movies' />
+      <PageTitle title='popular movies' textColor='text-red-700' />
       {data ? (
         <>
           <CollectionSearch isGenre arr={data.results} />

@@ -6,6 +6,7 @@ import PaginationImproved from '../../../components/PaginationImproved'
 import SearchBar from '../../../components/SearchBar'
 import { discoverMovie, getUrl } from '../../../lib/tmdb'
 import { pathToSearchMovie } from '../../../utils'
+import {env} from "../../../next.config";
 
 export default function GenreMovie({ data, id, name, page }) {
   const currentPage = Number(page)
@@ -15,13 +16,13 @@ export default function GenreMovie({ data, id, name, page }) {
   return (
     <div>
       <Head>
-        <title>{name} - Movies | Watcho</title>
+        <title>{name} - Movies | {env.APP_NAME}</title>
       </Head>
       <SearchBar
         placeholder='Search for movies'
         searchPath={pathToSearchMovie}
       />
-      <PageTitle title={name} />
+      <PageTitle title={name} textColor='text-red-700' />
       {data ? (
         <>
           <CollectionSearch isGenre arr={data.results || []} />

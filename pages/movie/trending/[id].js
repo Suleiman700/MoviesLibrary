@@ -25,7 +25,7 @@ export default function TrendingMovies() {
         placeholder='Search for movies'
         searchPath={pathToSearchMovie}
       />
-      <PageTitle title='trending movies' />
+      <PageTitle title='trending movies' textColor='text-red-700' />
       {data ? (
         <>
           <CollectionSearch isGenre arr={data.results} />

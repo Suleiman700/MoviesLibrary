@@ -6,6 +6,7 @@ import PaginationImproved from '../../../components/PaginationImproved'
 import SearchBar from '../../../components/SearchBar'
 import { discoverTV, getUrl } from '../../../lib/tmdb'
 import { pathToSearchTV } from '../../../utils'
+import {env} from "../../../next.config";
 
 export default function GenreTV({ data, id, name, page }) {
   const currentPage = Number(page)
@@ -15,13 +16,13 @@ export default function GenreTV({ data, id, name, page }) {
   return (
     <div>
       <Head>
-        <title>{name} - TV Series | Watcho</title>
+        <title>{name} - TV Series | {env.APP_NAME}</title>
       </Head>
       <SearchBar
         placeholder='Search for TV series'
         searchPath={pathToSearchTV}
       />
-      <PageTitle title={name} />
+      <PageTitle title={name} textColor='text-cyan-700' />
       {data ? (
         <>
           <CollectionSearch

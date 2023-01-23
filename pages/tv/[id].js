@@ -13,6 +13,7 @@ import Loading from '../../components/Loading'
 import SearchBar from '../../components/SearchBar'
 import { fetcher, pathToSearchTV } from '../../utils'
 import { renderLanguage, renderRating, renderStatus } from '../movie/[id]'
+import {env} from "../../next.config";
 
 export default function TV() {
   const router = useRouter()
@@ -25,7 +26,7 @@ export default function TV() {
   return (
     <>
       <Head>
-        <title>{tv.detail.name} | Watcho</title>
+        <title>{tv.detail.name} | {env.APP_NAME}</title>
       </Head>
       <SearchBar
         placeholder='Search for TV series'

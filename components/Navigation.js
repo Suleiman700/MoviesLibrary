@@ -39,18 +39,18 @@ export default function Navigation() {
           <IconNavBookmark />
         </NavigationIcon> */}
             </div>
-            {/*<a href="https://github.com/Sayan-Maity" target="_blank" rel="noreferrer">*/}
-            {/*    <div className='flex items-center justify-center rounded-full bg-cyan-200 p-px'>*/}
-            {/*        <Image*/}
-            {/*            className='rounded-full'*/}
-            {/*            src={ProfilePic}*/}
-            {/*            alt='user avatar'*/}
-            {/*            height={25}*/}
-            {/*            width={25}*/}
-            {/*            unoptimized*/}
-            {/*        />*/}
-            {/*    </div>*/}
-            {/*</a>*/}
+            <a href="https://github.com/Suleiman700" target="_blank" rel="noreferrer">
+                <div className='flex items-center justify-center rounded-full bg-cyan-200 p-px'>
+                    <Image
+                        className='rounded-full'
+                        src={ProfilePic}
+                        alt='user avatar'
+                        height={25}
+                        width={25}
+                        unoptimized
+                    />
+                </div>
+            </a>
             {/*<a href="https://github.com/Sayan-Maity" target="_blank" rel="noreferrer">*/}
             {/*    <div className='flex items-center justify-center rounded-full bg-cyan-200'>*/}
             {/*        <Image*/}
@@ -68,16 +68,16 @@ export default function Navigation() {
             {/*    <IconTranslate />*/}
             {/*</i>*/}
 
-            <div className="js">
-                <div className="language-picker js-language-picker" data-trigger-class="btn btn--subtle">
-                    <form action="" className="language-picker__form">
-                        <select name="language-picker-select" id="language-picker-select" style={{background: 'transparent'}} onChange={(e) => changeLanguage(e.target.value)}>
-                            <option value="en" style={{color: 'black'}}>English</option>
-                            <option value="ar" style={{color: 'black'}}>العربية</option>
-                        </select>
-                    </form>
-                </div>
-            </div>
+            {/*<div className="js">*/}
+            {/*    <div className="language-picker js-language-picker" data-trigger-class="btn btn--subtle">*/}
+            {/*        <form action="" className="language-picker__form">*/}
+            {/*            <select name="language-picker-select" id="language-picker-select" style={{background: 'transparent'}} onChange={(e) => changeLanguage(e.target.value)}>*/}
+            {/*                <option value="en" style={{color: 'black'}}>English</option>*/}
+            {/*                <option value="ar" style={{color: 'black'}}>العربية</option>*/}
+            {/*            </select>*/}
+            {/*        </form>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
 
         </nav>
     )
